@@ -1,0 +1,31 @@
+:local(.wrapper) {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+:local(.search_icon) {
+  border: none !important;
+  padding: 0!important;
+  position: relative;
+  left: 20px;
+}
+
+:local(.search_bar) {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  padding: 5px 0px 5px 10px;
+  padding-left: 25px;
+  font-size: 1.15rem;
+}
+
+:local(.search_bar:focus) {
+  outline: none;
+}
+
+:local(.search_bar::-webkit-input-placeholder) {
+  color: rgba(255,255,255,.9) !important;
+  }
